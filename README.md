@@ -1,6 +1,6 @@
 # Modern Microservices with Spring Boot & Spring Cloud
 
-[![Java](https://img.shields.io/badge/Java-17%2B-blue)](https://openjdk.org/)
+[![Java](https://img.shields.io/badge/Java-21%2B-blue)](https://openjdk.org/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-latest-brightgreen)](https://spring.io/projects/spring-boot)
 [![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-latest-blueviolet)](https://spring.io/projects/spring-cloud)
 [![Status](https://img.shields.io/badge/status-in%20progress-yellow)](https://github.com/yourusername/modern-microservices-springboot)
