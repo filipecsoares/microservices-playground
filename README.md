@@ -41,7 +41,22 @@ The system simulates a **ticket sales platform**, supporting:
 - Event and ticket management
 - Payment monitoring
 
-This project is designed to reflect real-world complexity and architectural decision-making. :contentReference[oaicite:0]{index=0}
+This project is designed to reflect real-world complexity and architectural decision-making.
+
+---
+
+## 📐 Business Rules
+
+The system enforces a set of core business constraints to ensure consistency and domain integrity:
+
+- Each session must reference an existing room;
+- The allocated room for a session must be available at the scheduled time;
+- Each ticket type assigned to a session must exist;
+- The total number of tickets allocated per session must not exceed the room capacity;
+  - Example: if a session offers 10 half-price tickets and 10 full-price tickets, the room must support at least 20 seats;
+- Events must have unique names (no duplicates allowed).
+
+These rules are central to the domain model and are enforced across services to maintain data integrity and consistency in a distributed environment.
 
 ---
 
