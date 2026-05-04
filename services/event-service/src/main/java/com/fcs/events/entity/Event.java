@@ -47,4 +47,8 @@ public class Event {
     public void setId(final Integer id) {
         this.id = id;
     }
+
+    public Validity getValidity() {
+        return validity;
+    }
 }
